@@ -17,7 +17,7 @@ const __dirname = dirname(__filename);
 
 const app = express();
 
-const CONNECTION_URL="mongodb+srv://sanjeshmern:JmYyOZ6R74sFAEje@cluster0.tkyk7f9.mongodb.net/?retryWrites=true&w=majority";
+const CONNECTION_URL=""; // enter your mongoDb url for connecting with your app
 const salt=bcrypt.genSaltSync(10);
 const secret="sjhs893837ssaaLQ";
 
